@@ -1,0 +1,68 @@
+.head{
+        background-color: rgb(128, 128, 218);
+        padding-left: 550px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .body{
+        background-color: rgb(222, 207, 207);
+        padding-left: 550px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .foot{
+        background-color: rgb(255, 132, 132);
+        padding-left:580px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 25px;
+    }
+    #about{
+        background-color:rgb(138, 138, 165) ;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        border-radius: 20px;
+
+
+    }
+    #skills{
+        margin-left: 60PX;
+        background-color: rgb(138, 138, 165);
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        border-radius: 20px;
+
+    }
+    #contact{
+        margin-left: 60px;
+        background-color: rgb(138, 138, 165);
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        border-radius: 20px;
+
+    }
+    #about:hover{
+        background-color: rgb(222, 207, 207);
+    }
+    #skills:hover{
+        background-color: rgb(222, 207, 207);
+
+    }
+    #contact:hover{
+        background-color: rgb(222, 207, 207);
+
+    }
+    .a{
+        font-size: 20px;
+        margin-left: 120px;
+    }
+    .name{
+        margin-top: 0px;
+        font-size: 40px;
+    }
+    .s{
+        font-size: 40px;
+    }
+    .img{
+        size: 50px;
+    }

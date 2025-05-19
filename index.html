@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="head">
+    <h1 class="s">
+        Welcome To My Portfolio
+    </h1>
+    <p class="a">WebDeveloper   |   Designer </p>
+  </header>
+  <section class="body">
+    <h2 class="name">
+        LAKSHMI KANTH PALLA
+    </h2>
+    <img class="img" src="https://icons.veryicon.com/png/o/miscellaneous/user-avatar/user-avatar-male-5.png">
+    <br>
+    <button id="about" onclick="aboutme">About Me</button>
+    <button id="skills">Skills</button>
+    <button id="contact">Contact</button>
+
+  </section>
+  <footer class="foot">
+    <p>
+        &copy; 2025 My Portfolio | All Rights Reserved
+    </p>
+  </footer>
+  <script>
+    function aboutme(){
+        document.getElementById("about").innerText="I am a web developer and designer dedicated to building clean, responsive, and high-performing websites. I specialize in both the visual and functional aspects of web development, ensuring that each project is not only visually engaging but also technically sound."
+
+"With experience in HTML, CSS, JavaScript, and frameworks like React and WordPress, I bring websites to life with precision and creativity. I focus on writing clean code, optimizing site speed, and ensuring cross-browser compatibility to deliver reliable and professional web solutions.";
+
+
+    }
+  </script>
+  
+</body>
+</html>
